@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom"; 
  
 function AttractionDetails({ attraction, onClose }) { 
-  // Close the modal when the Escape key is pressed 
   useEffect(() => { 
     const handleKey = (e) => { 
       if (e.key === "Escape") onClose(); 
