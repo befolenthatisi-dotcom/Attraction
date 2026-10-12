@@ -71,7 +71,6 @@
   margin: 3px 0;
 }
 
-/* Mobile and small tablet */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
